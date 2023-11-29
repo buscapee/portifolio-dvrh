@@ -1,12 +1,42 @@
-.header{
-    background-color: grey;
-    margin: -8px -8px;
-    text-transform: uppercase;
-    text-align: right;
+@charset "UTF-8";
+
+:root {
+    --cor-branca: #fff;
+    --cor-preta: #000;
+    --cor-cinza: #686868;
+    --cor-roxo: #9a00ff;
 }
 
-a{
+body {
+    background-color: var(--cor-preta);
+}
+
+.header {
+    margin: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
     text-decoration: none;
-    color: black;
-    margin-right: 10px;
+    color: var(--cor-cinza);
+    margin-right: 20px;
+}
+
+a:hover {
+    color: var(--cor-branca)
+}
+
+.contato {
+    background-color: var(--cor-roxo);
+    color: var(--cor-preta);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.logodev {
+    top: -70px;
+    position: relative;
 }
